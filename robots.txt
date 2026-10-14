@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /sign-in
 Disallow: /sign-up
-Sitemap: https://brock-tokar.github.io/pmtoolstack/sitemap.xml
+Sitemap: https://pmtoolstack.com/sitemap.xml

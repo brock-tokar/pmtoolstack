@@ -1,0 +1,31 @@
+:root,.dark{
+--background:40 33% 97%;--foreground:220 51% 16%;
+--card:0 0% 100%;--card-foreground:220 51% 16%;--card-border:220 20% 86%;--border:220 20% 86%;
+--muted:220 25% 93%;--muted-foreground:220 18% 36%;
+--primary:221 51% 16%;--primary-foreground:0 0% 100%;
+--signal:37 91% 55%;--signal-soft:38 95% 90%;
+--app-font-serif:"Space Grotesk",system-ui,sans-serif;
+--app-font-sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+color-scheme:light;
+}
+body{background:#FBF9F4;color:#14213D}
+.font-display,h1,h2,h3{font-family:"Space Grotesk",system-ui,sans-serif;letter-spacing:-.02em}
+header{background:#14213D!important;color:#fff;border-color:#0d1629!important}
+header a,header p,header span,header nav{color:#fff}
+header a:hover{color:#F5A623}
+footer{background:#14213D!important;color:#E6E9F0;border-color:#0d1629!important}
+footer *{color:#E6E9F0}
+footer a{color:#F5A623!important}
+.bg-primary{background-color:#F5A623!important;color:#14213D!important}
+.bg-primary *{color:#14213D!important}
+.bg-primary:hover{background-color:#E09412!important}
+.text-primary{color:#1F3A7A!important}
+.border-primary{border-color:#F5A623!important}
+.ring-primary\/30{--tw-ring-color:rgba(245,166,35,.45)!important}
+.border-l-2.border-primary{border-color:#F5A623!important}
+header a:hover{background:rgba(255,255,255,.08)!important}
+:root,.dark{--accent:220 45% 92%;--accent-foreground:220 51% 16%}
+header .text-primary{color:#F5A623!important}
+header [data-testid="link-nav-sponsor"]:hover{background:#F5A623!important;color:#14213D!important}
+.text-signal{color:#A35F00!important}
+.bg-signal{background-color:#F5A623!important}
