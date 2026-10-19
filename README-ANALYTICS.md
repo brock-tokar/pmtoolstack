@@ -7,3 +7,8 @@ Every new HTML page MUST include this block right before </head> (GA4 G-HDG5MMYR
 <script defer src="/assets/analytics.js"></script>
 
 Easiest: copy an existing page as the template. assets/analytics.js sends outbound_click (tool_name, link_domain) and contact_submit (form_page). No personal info.
+
+Also required on every page (GoatCounter, Google-free daily traffic for the traffic report), placed right before the GA4 block:
+
+<!-- GoatCounter -->
+<script data-goatcounter="https://pmtoolstack.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
